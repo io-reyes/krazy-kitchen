@@ -1,0 +1,155 @@
+noscript{
+    color: red;
+    font-family: monospace;
+}
+
+#page-container{
+    width: 900px;
+    height: 550px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin-top: -300px;
+    margin-left: -450px;
+
+    border-style: solid;
+    border-width: 2px;
+
+    background-color: #BFBFBF;
+}
+
+#left-pane{
+    width: 30%;
+    height: 100%;
+
+    float: left;
+
+    background-color: #6BB1E3;
+}
+
+#right-pane{
+    width: 70%;
+    height: 100%;
+
+    position: relative;
+    float: right;
+
+    background-color: white;
+}
+
+#bottom-pane{
+    width: 100%;
+
+    background-color: #D6D6D6;
+}
+
+#board{
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    border-style: dotted;
+    border-width: 1px;
+}
+
+#padded{
+    padding: 10px;
+}
+
+div.revealed{
+    position:               absolute;
+
+    text-align:             center;
+    vertical-align:         middle;
+
+    background-color:       #6BB1E3;
+    border:                 3px solid #1E91E3;
+
+    font-family:            monospace;
+    font-size:              12px;
+}
+
+div.hidden{
+    position:               absolute;
+
+    text-align:             center;
+    vertical-align:         middle;
+
+    background-color:       #EDEDED;
+    border:                 3px solid #919191;;
+
+    font-family:            monospace;
+    font-size:              12px;
+}
+
+div.category{
+    position:               absolute;
+
+    text-align:             center;
+    vertical-align:         middle;
+
+    background-color:       #EDEDED;
+    border:                 3px solid #1E91E3;
+
+    font-family:            monospace;
+    font-size:              12px;
+}
+
+div.hinthidden{
+    position:               absolute;
+
+    text-align:             center;
+    vertical-align:         middle;
+
+    background-color:       #EDEDED;
+    border:                 3px solid #9E0808;
+
+    font-family:            monospace;
+    font-size:              12px;
+}
+
+div.hintrevealed{
+    position:               absolute;
+
+    text-align:             center;
+    vertical-align:         middle;
+
+    background-color:       #D97777;
+    border:                 3px solid #9E0808;
+
+    font-family:            monospace;
+    font-size:              12px;
+}
+
+table.minimap{
+    padding:                0px;
+    border-collapse:        collapse;
+
+    border:                 3px solid black;
+}
+
+td.current{
+    width:                  25px;
+    height:                 25px;
+
+    border:                 1px solid red;
+}
+
+td.other{
+    width:                  25px;
+    height:                 25px;
+
+    border:                 1px solid black;
+}
+
+form{
+    margin:                 0px;
+    padding:                0px;
+}
